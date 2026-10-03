@@ -1,3 +1,47 @@
 body {
-    background-color: lightgray;
+    background-color: #9a9c9a;
+    font-style: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+     
+}
+
+header {
+    background-color: rgb(139, 138, 138);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgb(99, 10, 10);
+    
+    
+    
+    
+}
+
+h1, h2 {
+    color: #b0031a;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+    
+
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #555555;
+    box-shadow: 0 4px 8px rgb(99, 10, 10);
+}
+
+a[href] {
+    color: #b0031a;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #9a9c9a;
+
+    text-align: center;
+    padding: 10px;
+    
 }
