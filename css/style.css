@@ -1,17 +1,21 @@
 body {
-    background-color: #9a9c9a;
+    background-color: #dedfdf;
     font-family: Arial, sans-serif;
     line-height: 1.5;
     font-size: 18px;
     margin: 0;
+    
+    
      
 }
 
 header {
-    background-color: rgb(139, 138, 138);
+    background-color: rgb(210, 240, 248);
     text-align: center;
     padding: 10px;
     box-shadow: 0 4px 8px rgb(99, 10, 10);
+    
+
     
     
     
@@ -40,7 +44,7 @@ a[href] {
 }
 
 footer {
-    background-color: #9a9c9a;
+    background-color: rgb(210, 240, 248);
 
     text-align: center;
     padding: 10px;
