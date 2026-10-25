@@ -1,4 +1,5 @@
-body {
+/* taustaväri */
+body { 
     background-color: #dedfdf;
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -9,19 +10,16 @@ body {
      
 }
 
+/*Otsikko taustaväri*/
 header {
     background-color: rgb(210, 240, 248);
     text-align: center;
     padding: 10px;
     box-shadow: 0 4px 8px rgb(99, 10, 10);
     
-
-    
-    
-    
     
 }
-
+/*otsikoiden väri*/
 h1, h2 {
     color: #b0031a;
     text-align: center;
@@ -30,7 +28,7 @@ h1, h2 {
     
 
 }
-
+/*hehku*/
 section {
     padding: 20px;
     margin: 20px;
@@ -38,15 +36,82 @@ section {
     box-shadow: 0 4px 8px rgb(99, 10, 10);
 }
 
+/*Alaosion kirjainväri*/
 a[href] {
     color: #b0031a;
     text-decoration: none;
 }
 
+/*Alaosan asetukset ja väri*/
 footer {
     background-color: rgb(210, 240, 248);
 
     text-align: center;
     padding: 10px;
     
+}
+
+/*Etusivu grid*/
+.sisalto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    
+}
+
+ 
+/*etusivun laatikot*/
+.sisalto-grid section {
+    margin: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #991919;
+    border-radius: 10px;
+}
+
+.sisalto-grid ul {
+    text-align: left;
+}
+
+/*välineet alin kortti*/
+.leveampi {
+    grid-column: 1 / -1;
+}
+
+
+/*Gallerian muotoilu*/
+.galleria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.galleria {
+    border: none;
+    box-shadow: none;
+}
+
+.galleria-kortti {
+    background-color: #f9f9f9;
+    border: 1px solid #555555;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(99, 10, 10);
+}
+
+.galleria-kortti img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+/*navigaatio flexbox*/
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
