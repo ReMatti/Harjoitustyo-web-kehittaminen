@@ -51,6 +51,11 @@ footer {
     
 }
 
+/******************************
+    GRID
+******************************/
+
+
 /*Etusivu grid*/
 .sisalto-grid {
     display: grid;
@@ -72,6 +77,7 @@ footer {
     border-radius: 10px;
 }
 
+/*Etusivun sisältö listan asetukset*/
 .sisalto-grid ul {
     text-align: left;
 }
@@ -81,6 +87,10 @@ footer {
     grid-column: 1 / -1;
 }
 
+
+/********************************
+    GALLERIA ASETUKSIA
+********************************/
 
 /*Gallerian muotoilu*/
 .galleria-grid {
@@ -107,6 +117,10 @@ footer {
     height: 300px;
     object-fit: contain;
 }
+
+/*********************
+    NAVIGAATIO FLEXBOX
+*********************/
 
 /*navigaatio flexbox*/
 nav {
