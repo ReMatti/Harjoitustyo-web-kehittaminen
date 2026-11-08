@@ -16,6 +16,7 @@ header {
     text-align: center;
     padding: 10px;
     box-shadow: 0 4px 8px rgb(99, 10, 10);
+
     
     
 }
@@ -95,8 +96,11 @@ footer {
 /*Gallerian muotoilu*/
 .galleria-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 
 .galleria {
@@ -107,9 +111,20 @@ footer {
 .galleria-kortti {
     background-color: #f9f9f9;
     border: 1px solid #555555;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
     box-shadow: 0 4px 8px rgb(99, 10, 10);
+    position: relative;
+}
+.merkinta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #b0031a;
+    color: white;
+    padding: 0px;
+    font-size: 0.rem;
+    border-radius: 5px;
 }
 
 .galleria-kortti img {
@@ -117,6 +132,29 @@ footer {
     height: 300px;
     object-fit: contain;
 }
+
+/*********************
+    GALLERIA VIDEO
+*********************/
+video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.video-kortti {
+    background-color: #f9f9f9;
+    border: 1px solid #555555;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(99, 10, 10);
+    grid-column: 1 / -1;
+    position: relative;
+}
+
+
 
 /*********************
     NAVIGAATIO FLEXBOX
