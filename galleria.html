@@ -96,6 +96,44 @@
             </div>
         </section>
 
+        <main class="kommentti">
+            <h2>Kommentoi miniatyyrejä</h2>
+            <p> Jätä mielipiteesi miniatyyreistä. </p>
+
+        <form>
+            <fieldset>
+                <legend>Kommentti</legend>
+                <div class="lomakekentta">
+                <label for="nimi">Nimi <span class="pakollinen">*</span></label>
+                <input type="text" id="nimi" name="nimi" placeholder="Anna nimesi" autocomplete="name" maxlength="20" required>
+                </div>
+
+                <div class="lomakekentta">
+                <label for="sahkoposti">Sähköposti <span class="pakollinen">*</span></label>
+                <input type="email" id="sahkoposti" name="sahkoposti" placeholder="Anna sähköpostisi" autocomplete="email" maxlength="100" required>
+                </div>
+
+                <div class="lomakekentta">
+            <label for="armeija">Mistä armeijasta <span class="pakollinen">*</span></label>
+            <select id="armeija" name="armeija" required>
+                <option value="Orks">Orks</option> 
+                <option value="Ultramarines">Ultramarines</option> 
+                <option value="Astra Militarum">Astra Militarum</option>
+            </select>
+            </div>
+
+
+            <div class="lomakekentta">
+            <label for="kommentti">Jätä kommentti:</label>
+            <textarea id="kommentti" name="kommentti" rows="4" cols="50" placeholder="Kirjoita kommenttisi tähän..."></textarea>
+            </div>
+
+            <button type="button"> Lähetä palaute</button>
+
+        </fieldset>
+
+        </form>
+
     </main>
 
 <!-- Alaosio -->        

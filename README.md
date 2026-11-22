@@ -7,3 +7,8 @@ Päivitys 1.6
     - Gridien oikealle puolelle lisätty faction tunnisteet
     - Alt-tekstit tarkistettu
     - Lisätty kuville koot
+
+
+Päivitys
+    - Tehty ensimmäinen taulukko
+    - Tehty lomake
